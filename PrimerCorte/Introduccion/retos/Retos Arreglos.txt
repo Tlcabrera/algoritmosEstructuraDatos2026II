@@ -1,0 +1,18 @@
+  RETO 1  ·  El sensor mentiroso   [Básico]
+Contexto: Una estación de calidad del aire del barrio reporta lecturas cada hora, pero el sensor falla de vez en cuando y, 
+cuando falla, escribe el valor -999.
+Se pide: Calcular el promedio real de las lecturas ignorando las lecturas dañadas, e informar cuántas lecturas se descartaron. 
+Usar el arreglo {20, -999, 22, 24, -999, 26}.
+Pista: Necesitan dos contadores: uno para la suma y otro para cuántos datos válidos encontraron. No se puede dividir 
+entre el tamaño del arreglo.
+
+RETO 2  ·  La racha de lluvia
+Contexto: Se tiene el registro de un mes donde 1 significa que llovió y 0 que no. Un ingeniero ambiental necesita saber cuál fue el periodo más largo de días seguidos con lluvia.
+Se pide: Encontrar la longitud de la racha más larga de unos consecutivos en el arreglo {0,1,1,0,1,1,1,0,1}.
+Pista: Se resuelve con un solo recorrido y dos variables: la racha actual y la mejor racha vista hasta ahora. Cuando aparece un 0, la racha actual vuelve a cero.
+
+  RETO 3  ·  El espejo   
+Contexto: Los códigos de inventario de una biblioteca comunitaria son válidos solo si se leen igual al derecho y al revés.
+Se pide: Determinar si un arreglo de números es palíndromo, sin crear un segundo arreglo y sin usar funciones de reversa del lenguaje.
+Pista: Dos índices que caminan en sentidos opuestos: uno desde el inicio y otro desde el final. Se detienen cuando se cruzan.
+

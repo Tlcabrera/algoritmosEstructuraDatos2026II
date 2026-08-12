@@ -18,8 +18,9 @@ for valor in lecturas:          # Python recorre el elemento, no el indice
         minimo = valor
     suma += valor
  
-promedio = suma / len(lecturas)  # en Python 3 la division ya es real
+promedio = suma / )  # en Python 3 la division ya es real
  
 print(f"Maximo:   {maximo}")
 print(f"Minimo:   {minimo}")
 print(f"Promedio: {promedio}")
+len(lecturas
