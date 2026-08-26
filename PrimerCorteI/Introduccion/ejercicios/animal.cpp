@@ -1,23 +1,29 @@
 #include <iostream>
 using namespace std;
 
-class Animal {
+class Animal
+{
 public:
-    virtual void hacerSonido() {
+    virtual void hacerSonido()
+    {
         cout << "El animal hace un sonido." << endl;
     }
 };
 
-class Perro : public Animal {
+class Perro : public Animal
+{
 public:
-    void hacerSonido() override {
+    void hacerSonido() override
+    {
         cout << "El perro ladra." << endl;
     }
 };
 
-class Gato : public Animal {
-public: 
-    void hacerSonido() override {
+class Gato : public Animal
+{
+public:
+    void hacerSonido() override
+    {
         cout << "El gato maúlla." << endl;
     }
 };
