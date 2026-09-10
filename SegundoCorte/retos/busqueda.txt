@@ -1,0 +1,13 @@
+**Uno: implementen la binaria de forma recursiva. 
+Es más corta y les conecta con lo del viernes pasado. 
+
+**Dos: modifíquenla para que, si el elemento no está, 
+devuelva la posición donde DEBERÍA ir. Eso sirve para insertar manteniendo el orden,
+ y lo van a necesitar en su proyecto.
+
+**Tres: si hay elementos repetidos, la binaria devuelve uno cualquiera de ellos. 
+Háganla devolver siempre el PRIMERO de los repetidos.
+
+**Cuatro el del proyecto: apliquen las dos búsquedas sobre los datos reales de su caso y 
+tráiganme la tabla de comparaciones, como la que vimos hoy.
+Esa tabla va en el informe de la Entrega dos.
