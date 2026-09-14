@@ -19,3 +19,13 @@ r = factorial(4)
 print("Resultado:", r)
 print()
 print("fibonacci(10) =", fibonacci(10))
+
+factorial(4) entra
+|  factorial(3) entra
+|  |  factorial(2) entra
+|  |  |  factorial(1) entra
+|  |  |  factorial(1) devuelve 1
+|  |  factorial(2) devuelve 2
+|  factorial(3) devuelve 6
+factorial(4) devuelve 24
+Resultado: 24
