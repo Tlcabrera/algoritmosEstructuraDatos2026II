@@ -1,0 +1,11 @@
+Uno: sumaLista recursiva. Reciba una lista y devuelva la suma de sus elementos, sin ciclos. Piensen la definición recursiva de una lista, la que dijimos al principio: una lista es un elemento seguido de una lista.
+
+Dos: potencia de a elevado a la b, recursiva. Y después de que funcione, mejórenla: si b es par, a elevado a b es igual a a elevado a b medios, al cuadrado. Con eso pasan de n llamadas a log n llamadas. Compárenlo midiendo.
+
+Tres: invertir una cadena de texto recursivamente. Es corto y engañoso.
+
+Cuatro: Recorran e impriman su lista enlazada de forma recursiva, en orden inverso, sin usar ninguna estructura auxiliar. Cuando les salga, van a entender por qué la recursión y las estructuras enlazadas van juntas.
+
+PISTA PARA EL RETO 4  Si imprimen antes de la llamada recursiva sale en orden normal; si imprimen después, sale invertido. Ese descubrimiento es el que prepara los recorridos preorden y postorden de árboles en la Sesión 35. No se los diga: déjelos encontrarlo.
+
+leer Recursión matemática y backtracking
