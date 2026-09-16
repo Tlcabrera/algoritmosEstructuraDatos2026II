@@ -1,0 +1,20 @@
+def resolver(f, c):
+    # 1. ¿me sali del tablero?
+    if f < 0 or f >= FILAS or c < 0 or c >= COLS:
+        return False
+    # 2. ¿es muro o ya pase por aqui?
+    if laberinto[f][c] == 1 or camino[f][c] == 1:
+        return False
+    # 3. marco esta casilla como parte del camino
+    camino[f][c] = 1
+    # 4. CASO BASE: llegue a la salida
+    if f == FILAS - 1 and c == COLS - 1:
+        return True
+    # 5. CASO RECURSIVO: pruebo las cuatro direcciones
+    if resolver(f + 1, c): return True
+    if resolver(f, c + 1): return True
+    if resolver(f - 1, c): return True
+    if resolver(f, c - 1): return True
+    # 6. BACKTRACKING: ninguna sirvio, desmarco y me devuelvo
+    camino[f][c] = 0
+    return False
