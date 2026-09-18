@@ -13,3 +13,7 @@ Dos: en Bucket Sort, prueben con cinco cubetas y con cincuenta sobre los mismos 
 
 Reto final
 Tabla de comparacion de todos los métodos de Ordenamientos
+
+Probar ejercicio de ordenamiento2 imprimir lista ordenada
+#decomparaciones  #intercambios y tiempos de ordenamiento 
+hacer lo mismo con c++
