@@ -1,0 +1,19 @@
+*  Ordenamientos Básicos
+Uno: agréguenle a Bubble una bandera que detecte si en una pasada completa no hubo ningún intercambio, y en ese caso corte. Después midan cuántas comparaciones hace sobre datos ordenados. Van a ver que baja de veintiocho a siete, igual que Insertion.
+Dos: ordenen los registros de su proyecto por el criterio que su línea necesite. Los de la uno, por veces prestado. Los de la dos, por saturación. Los de la tres, por urgencia.
+tres: hagan la tabla de comparaciones e intercambios con SUS datos reales, no con estos ocho. Esa tabla va en el informe.
+
+* Merge y Quick
+Uno: implementen Quicksort en el sitio, sin crear listas nuevas, usando dos índices que se cruzan. Es más difícil y es como se hace de verdad.
+Dos: construyan un caso que haga que su Quicksort se comporte pésimo. Si escogen el primer elemento como pivote, una lista ya ordenada lo logra. Mídanlo.
+
+* Heap y Bucket
+Uno: implementen Heapsort de mínimos en vez de máximos, y díganme qué cambió.
+Dos: en Bucket Sort, prueben con cinco cubetas y con cincuenta sobre los mismos datos, y midan. Van a ver que hay un punto óptimo.
+
+Reto final
+Tabla de comparacion de todos los métodos de Ordenamientos
+
+Probar ejercicio de ordenamiento2 imprimir lista ordenada
+#decomparaciones  #intercambios y tiempos de ordenamiento 
+hacer lo mismo con c++

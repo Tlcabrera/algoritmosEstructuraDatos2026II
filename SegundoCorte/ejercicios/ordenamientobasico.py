@@ -38,3 +38,5 @@ def insertion_sort(arr):
     return arr
 
 # datos: [64, 25, 12, 22, 11, 90, 45, 33]
+# numero de comparaciones
+# numero de intercambios
