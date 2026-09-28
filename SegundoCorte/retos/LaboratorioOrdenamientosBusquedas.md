@@ -6,10 +6,10 @@ Parte A Responda y justifique:
 Parte B — Búsqueda comparada 
 Implementen búsqueda secuencial y binaria sobre su colección de registros, contando comparaciones. Produzcan la tabla comparativa para cuatro casos: el primer elemento, uno del medio, el último, y uno que no existe.
 
-Parte C — Los tres ordenamientos básicos (30%)
+Parte C — Los tres ordenamientos básicos 
 Implementen Bubble, Selection e Insertion sobre sus registros, con contadores de comparaciones e intercambios. Reporten los resultados con datos desordenados y con datos ya ordenados, y expliquen la diferencia.
 
-Parte D — Un ordenamiento avanzado y la medición (40%)
+Parte D — Un ordenamiento avanzado y la medición
 Implementen Merge o Quicksort, midan el tiempo contra uno de los básicos para tres tamaños distintos de entrada, y produzcan la tabla. En el archivo de respuestas, expliquen en cinco líneas por qué los tiempos crecen distinto.
 
 Como siempre, los dos lenguajes.
