@@ -27,7 +27,7 @@ class Pila:
     # y se compara con el tope de la pila 
     # si es igual se desapila sino no es balanceado
     
-    def balanceados(s):
+def balanceados(s):
         p=Pila(); pares={')': '(', ']': '[', '}': '{'}
         for c in s:
             if c in '([{': p.apilar(c)
@@ -35,12 +35,12 @@ class Pila:
                 if p.desapilar() != pares[c]: return False
         return p.vacia()
     
-    print(balanceados("()"))
-    print(balanceados("([]{})"))
-    print(balanceados("([)]"))
-    print(balanceados("((())"))
+print(balanceados("()"))
+print(balanceados("([]{})"))
+print(balanceados("([)]"))
+print(balanceados("((())"))
     
-    #([]{})
-    #([)]
-    #((()
-    #{}[]()
+    #(a[b]{c}) true
+    #(a[b)c] false
+    #((() false eliminando la ultima linea true
+    #{}[]() true
