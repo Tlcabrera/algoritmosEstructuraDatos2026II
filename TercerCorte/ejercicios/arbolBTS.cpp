@@ -1,3 +1,4 @@
+//Quiz 28/10/2026
 #include <iostream>
 #include <vector>
 #include <string>
@@ -17,7 +18,14 @@ Nodo* insertar(Nodo* n, int clave, string nombre="") {
     return n;
 }
 
-
+// buscar
+//minimo
+//maximo
+//eliminar
+//altura
+//inorden
+//liberar
+//verLista
 
 
 int main() {
@@ -51,3 +59,13 @@ int main() {
     liberar(raiz); liberar(deg);
     return 0;
 }
+
+/*  # Salida: Inorden (queda ordenado): [20, 30, 35, 40, 50, 60, 70, 80]
+#minimo = 20  maximo = 80  altura = 3
+#buscar(40): camino 50 -> 30 -> 40  =>  ENCONTRADO  (3 comparaciones)
+#buscar(65): camino 50 -> 70 -> 60 -> vacio  =>  NO ESTA  (4 comparaciones)
+#eliminar(20) [caso 1: hoja, 0 hijos] -> [30, 35, 40, 50, 60, 70, 80]
+#eliminar(30) [caso 2: un hijo] -> [35, 40, 50, 60, 70, 80]
+#eliminar(50) [caso 3: dos hijos] -> [35, 40, 60, 70, 80]
+#BST con datos ordenados: altura = 7 con 8 nodos (una lista enlazada)
+#BST con datos mezclados: altura = 3 con 8 nodos (log2(8) = 3)*/
